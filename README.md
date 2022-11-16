@@ -1,6 +1,6 @@
 # Boundary-aware Backward-Compatible Representation via Adversarial Learning in Image Retrieval
 ## introduction
-Backward-compatible training (BCT) aims to deploy a new model without the operation of ``backfilling”. We introduce AdvBCT, an Adversarial Backward-Compatible Training method with an elastic boundary constraint that takes both compatibility and discrimination into consideration. The codes for AdvBCT and the benchmark are all publicly available in this repo.
+Backward-compatible training (BCT) aims to deploy a new model without the operation of "backfilling". We introduce AdvBCT, an Adversarial Backward-Compatible Training method with an elastic boundary constraint that takes both compatibility and discrimination into consideration. The codes for AdvBCT and the benchmark are all publicly available in this repo.
 ## Datasets
 ### Landmark
 #### ROxford and RParis
@@ -37,6 +37,7 @@ evaluate datasets on 32G v100
 mkdir -p output/final_model
 ```
 * move models to ./output/final_model/
+Models can be download in [GDrive](https://drive.google.com/drive/folders/1sjlvFiEJTF2Zkt-Tal1KH-Gce_Wra9EH?usp=share_link). The password is our submitted ID.
 * test
 ```bash
 bash scripts/test.sh landmark roxford5k ./data/ROxfordParis/
