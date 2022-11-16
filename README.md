@@ -59,7 +59,7 @@ bash scripts/test.sh landmark gldv2 ./data/GLDv2
 |Extended-class | $\phi_o^{R18}$ | $\phi_{AdvBCT}^{R18}$ |82.05 | 77.16 | 64.51 | 54.82|
 
 ### Next-step
-The following content will also be released after paper acceptance.
+The following content will also be released soon.
 - [ ] Release of preprocess codes for training datasets.
 - [ ] Release of training codes for 5 works.
 - [ ] Release of training codes for other task, such as person reid.
