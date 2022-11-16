@@ -1,5 +1,5 @@
 # Boundary-aware Backward-Compatible Representation via Adversarial Learning in Image Retrieval
-## introduction
+## Introduction
 Backward-compatible training (BCT) aims to deploy a new model without the operation of "backfilling". We introduce AdvBCT, an Adversarial Backward-Compatible Training method with an elastic boundary constraint that takes both compatibility and discrimination into consideration. The codes for AdvBCT and the benchmark are all publicly available in this repo.
 ## Datasets
 ### Landmark
