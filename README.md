@@ -36,7 +36,7 @@ evaluate datasets on 32G v100
 ```bash
 mkdir -p output/final_model
 ```
-* move models to ./output/final_model/
+* move models to ./output/final_model/.
 Models can be download in [GDrive](https://drive.google.com/drive/folders/1sjlvFiEJTF2Zkt-Tal1KH-Gce_Wra9EH?usp=share_link). The password is our submitted ID.
 * test
 ```bash
@@ -51,12 +51,12 @@ bash scripts/test.sh landmark gldv2 ./data/GLDv2
 | Allocation Type | old model | new model | RParis(self) |  RParis(cross) | ROxford(self) | ROxford(cross) |
 | :------| :----| :------| :----| :----| :----| :----|
 |Extended-class | $\phi_o^{R18}$|  $\phi_o^{R18}$ | 74.29 | - | 54.34 | - |
-|Extended-class | $\phi_o^{R18}$|  $\phi_*^{R18}$ | 81.15 | 4.93 | 63.85 |1.20 |
+|Extended-class | $\phi_o^{R18}$|  $\phi_*^{R18}$ | 81.15 | 4.93 | 63.85 |1.29 |
 |Extended-class | $\phi_o^{R18}$ | $\phi_{BCT}^{R18}$ |79.45|76.13|58.94|53.43|
 |Extended-class | $\phi_o^{R18}$ | $\phi_{LCE}^{R18}$ |81.26 | 76.78| 60.49 | 54.29|
 |Extended-class | $\phi_o^{R18}$ | $\phi_{UniBCT}^{R18}$ |76.92|74.55|59.07|57.82|
 |Extended-class | $\phi_o^{R18}$ | $\phi_{Hot-refresh}^{R18}$ |78.93|75.33|60.31|51.68|
-|Extended-class | $\phi_o^{R18}$ | $\phi_{AdvBCt}^{R18}$ |82.05 | 77.16 | 64.51 | 54.82|
+|Extended-class | $\phi_o^{R18}$ | $\phi_{AdvBCT}^{R18}$ |82.05 | 77.16 | 64.51 | 54.82|
 
 ### Next-step
 The following content will also be released after paper acceptance.
