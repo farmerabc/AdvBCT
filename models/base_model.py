@@ -53,14 +53,11 @@ class CreateBaseModel(nn.Module):
     def load_state(self, path):
         ckpt = torch.load(path, map_location='cpu')
         print(f"load model from {path}")
-        # TODO 剔除discriminator
         self.load_state_dict(ckpt['model'],strict=False)
 
     def forward(self,x,feat_old=None,alpha=0,radius=None):
         x = self.convnet(x).view(-1, self.encoder_dim)
-        # print('xx, ', x.shape)
         feature = self.projection_dim(x)
-        # print('xx,ww ', feature.shape)
         feature = self.bn(feature)
         if self.configs['adversarial'] and self.training:
             reverse_feature_new = ReverseLayerF.apply(feature, alpha)
